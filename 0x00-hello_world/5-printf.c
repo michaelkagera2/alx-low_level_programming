@@ -3,7 +3,7 @@
 /**
  * Main- entry point
  *
- * Use printf to display
+ * Description: Use printf to display
  *
  * Return: Always (0) Success)
  */
