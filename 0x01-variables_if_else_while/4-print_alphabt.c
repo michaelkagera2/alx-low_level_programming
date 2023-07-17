@@ -13,7 +13,7 @@ int main(void)
 	do {
 		if (x != 16  && x != 4)
 			{
-				putchar(l[x]);
+			putchar(l[x]);
 			}
 			x++;
 	} while (x < 26);
