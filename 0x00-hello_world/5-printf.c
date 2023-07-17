@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main- entry point
- *
- * Description: Use printf to display
+ * main - Use printf to display
  *
  * Return: Always (0) Success)
  */
