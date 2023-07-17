@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char l[56] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYS";
+	char l[56] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int x = 0;
 
 	do {
