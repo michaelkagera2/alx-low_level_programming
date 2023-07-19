@@ -10,20 +10,20 @@
 
 int main(void)
 {
-    unsigned long long int idx;
-    unsigned long long int prev = 1;
-    unsigned long long int curr = 2;
-    unsigned long long int limit = 1000000000;
-    unsigned long long int prev1;
-    unsigned long long int prev2;
-    unsigned long long int curr1;
-    unsigned long long int curr2;
+    unsigned long int idx;
+    unsigned long int prev = 1;
+    unsigned long int curr = 2;
+    unsigned long int limit = 1000000000;
+    unsigned long int prev1;
+    unsigned long int prev2;
+    unsigned long int curr1;
+    unsigned long int curr2;
 
-    printf("%llu", prev);
+    printf("%lu", prev);
 
     for (idx = 1; idx < 91; idx++)
     {
-        printf(", %llu", curr);
+        printf(", %lu", curr);
         curr += prev;
         prev = curr - prev;
     }
@@ -35,8 +35,8 @@ int main(void)
 
     for (idx = 92; idx < 99; ++idx)
     {
-        printf(", %llu", curr1 + (curr2 / limit));
-        printf("%llu", curr2 % limit);
+        printf(", %lu", curr1 + (curr2 / limit));
+        printf("%lu", curr2 % limit);
         curr1 = curr1 + prev1;
         prev1 = curr1 - prev1;
         curr2 = curr2 + prev2;
